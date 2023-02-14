@@ -4,6 +4,13 @@
     word-spacing: 0.2em;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: black;
+}
+
 body{
     background-color: black;
 }
@@ -34,4 +41,11 @@ h2 a{
     padding: 0.5em 1em;
     background-color: yellow;
     text-decoration: none;
+    border: 2px solid yellow;
+}
+
+h2 a:hover{
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
 }
