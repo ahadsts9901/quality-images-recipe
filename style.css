@@ -8,11 +8,11 @@ header{
     position: sticky;
     top: 0;
     z-index: 20;
-    background-color: black;
+    background-color: #212121;
 }
 
 body{
-    background-color: black;
+    background-color: #212121;
 }
 
 .white{
@@ -20,7 +20,7 @@ body{
 }
 
 .yellow{
-    color: yellow;
+    color: #ffc20f;
 }
 
 ul li{
@@ -28,7 +28,7 @@ ul li{
 }
 
 hr{
-    border: 1px solid yellow;
+    border: 1px solid #ffc20f;
 }
 
 p{
@@ -36,16 +36,16 @@ p{
 }
 
 h2 a{
-    color: black;
+    color: #212121;
     margin: 2em;
     padding: 0.5em 1em;
-    background-color: yellow;
+    background-color: #ffc20f;
     text-decoration: none;
-    border: 2px solid yellow;
+    border: 2px solid #ffc20f;
 }
 
 h2 a:hover{
-    background-color: black;
-    color: yellow;
-    border: 2px solid yellow;
+    background-color: #212121;
+    color: #ffc20f;
+    border: 2px solid #ffc20f;
 }
